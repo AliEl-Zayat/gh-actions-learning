@@ -1,5 +1,5 @@
 name: Lint-test-workflow
-on: push
+on: [push]
 jobs:
   Linting:
     runs-on: ubuntu-latest
